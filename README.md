@@ -1,0 +1,2 @@
+# hoge
+WordPress用Framexsのサンプルテーマ
