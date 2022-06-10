@@ -9,23 +9,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 -->
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:framexs="urn:framexs" lang="ja">
 <head>
-<framexs:if property="google-tag-manager-code">
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','<framexs:property name="google-tag-manager-code"/>');</script>
-<!-- End Google Tag Manager -->
-</framexs:if>
 <meta charset="UTF-8"/>
 <meta framexs:fix="" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 <title><framexs:title/> - <framexs:property name="site-name"/></title>
 </head>
 <body>
+<header><framexs:property name="site-name"/></header>
 <main>
 <h1><framexs:title/></h1>
 <framexs:id name="main"/>
 </main>
+<footer>
+<div><a href="https://github.com/inomoto-hironobu/hoge">site</a></div>
+<div>Framexs version:<framexs:version/></div>
+</footer>
 </body>
 </html>
